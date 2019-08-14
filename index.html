@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.4.1.js" charset="utf-8"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <meta charset="utf-8">
+    <title>Take our survey to win!</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="questions">
+        <div class="games">
+          <h1>What game do you like most?</h1>
+          <select class="form-control" id="games1">
+            <option>Settlers</option>
+            <option>Halo 1</option>
+            <option>No Man's Sky</option>
+            <option>Container</option>
+          </select>
+        </div>
+        <br>
+        <br>
+        <div class="food1">
+          <h1>Favorite foods</h1>
+          <label for="food">What do you like to eat?</label>
+          <input type="text" id="food">
+        </div>
+        <br>
+        <br>
+        <div class="color">
+          <h1>Whats your favorite color?</h1>
+          <label for="color"></label>
+          <input id="color" class="form-control" type="color">
+        </div>
+        <br>
+        <br>
+        <div class="day">
+          <h1>Whats your favorite day of the year?</h1>
+          <label for="favDay"></label>
+          <input id="favDay" class="form-control" type="date">
+        </div>
+        <br>
+        <br>
+        <div class="peeps">
+          <h1>Who do you like the most?</h1>
+          <div class="radio">
+            <label>
+              <input type="radio" name="people1" value="Jesus Christ our Lord and Savior">
+              Jesus
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="people1" value="Miley Cyrus">
+              Miley Cyrus
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="people1" value="Dolly Parton">
+              Dolly Parton
+            </label>
+          </div>
+        </div>
+        <button type="submit" name="button">Press here to submit</button>
+      </form>
+<br>
+<br>
+<br>
+<br>
+
+      <div class="results">
+        <p>You like to play <span class="games1"></span> while researching <span class="people"></span> and eating <span class="food"></span> preferably on <span class="day"></span>.</p>
+      </div>
+    </div>
+  </body>
+</html>

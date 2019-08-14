@@ -1,0 +1,13 @@
+/* .container{
+  max-width: 35%;
+  max-height: auto;
+
+} */
+.form-control {
+  max-width: 25%;
+
+}
+
+.results {
+  display: none;
+}
